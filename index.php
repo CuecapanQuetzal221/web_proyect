@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,8 @@
 </head>
 <body>
 
+=======
+>>>>>>> e997a875034145ffcf0809f2a5951f416f8d10da
 <?php
     require "conexion.php";
     
@@ -15,7 +18,11 @@
     $resultado=$conexion->query($consulta_sql);
 
     $count=mysqli_num_rows($resultado);
+<<<<<<< HEAD
     echo "<table border=3px class='striped'>
+=======
+    echo "<table border=3px>
+>>>>>>> e997a875034145ffcf0809f2a5951f416f8d10da
             <tr>
                 <th>folio</th>
                 <th>nombre</th>
@@ -55,8 +62,13 @@
 
             <h1 style='color:blue'>Sin ningun registro</h1>
 <?php } ?>
+<<<<<<< HEAD
 <a href="registro.php" class="waves-effect waves-light btn">Nuevo Registro</a>
 <a href="eliminarP.php" class="waves-effect waves-light btn orange">Eliminar Registro</a>
     
 </body>
 </html>
+=======
+    <h1><a href='registro.php'>registro</a></h1>
+    <h1><a href='eliminarP.php'>EliminarRegistro</a></h1>
+>>>>>>> e997a875034145ffcf0809f2a5951f416f8d10da
