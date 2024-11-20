@@ -9,10 +9,6 @@
     if($conexion->connect_error){
     }
     else{
-<<<<<<< HEAD
-        echo "<h1>Habemus conexion</h1>";
-=======
-        echo "<h1>Buenas</h1>";
->>>>>>> e997a875034145ffcf0809f2a5951f416f8d10da
+        echo "<h1></h1>";
     }
 ?>
